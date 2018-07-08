@@ -1,0 +1,37 @@
+#header {
+    img {
+        margin: auto;
+    }
+
+    .cart{
+        .cart-product-count{
+            margin-right: 10px;
+        }
+        .cart-sum{
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        .fa-shopping-cart {
+            font-size: 1.5em;
+            margin: auto;
+        }
+        margin: auto;
+    } 
+
+    .check-out{
+        margin: auto;
+    }
+
+    .search-form{
+        margin: auto;
+    }
+
+    align-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 130px;
+    padding: 20px 0;
+    vertical-align: middle;
+}

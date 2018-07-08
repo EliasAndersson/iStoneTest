@@ -1,0 +1,28 @@
+{
+  "name": "istone",
+  "version": "1.0.0",
+  "description": "FE test for iStone",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "angular": "^1.7.2",
+    "angular-ui-bootstrap": "^2.5.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasAndersson/iStoneTest.git"
+  },
+  "author": "Elias Andersson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasAndersson/iStoneTest/issues"
+  },
+  "homepage": "https://github.com/EliasAndersson/iStoneTest#readme"
+}

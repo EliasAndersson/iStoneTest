@@ -1,0 +1,15 @@
+$primary-colors: #A00D5B, #F0DB44, #ED2B91, #0FA7BA, #1591A0;
+
+body {
+    background-color: nth($primary-colors, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+

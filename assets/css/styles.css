@@ -1,0 +1,37 @@
+#header {
+  align-content: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-height: 130px;
+  padding: 20px 0;
+  vertical-align: middle; }
+  #header img {
+    margin: auto; }
+  #header .cart {
+    margin: auto; }
+    #header .cart .cart-product-count {
+      margin-right: 10px; }
+    #header .cart .cart-sum {
+      font-size: 1.3em;
+      font-weight: bold; }
+    #header .cart .fa-shopping-cart {
+      font-size: 1.5em;
+      margin: auto; }
+  #header .check-out {
+    margin: auto; }
+  #header .search-form {
+    margin: auto; }
+
+
+
+body {
+  background-color: #F0DB44;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
