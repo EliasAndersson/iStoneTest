@@ -1,6 +1,6 @@
-<div class="product-wrapper">
+<div class="h-product product-wrapper">
     <div class="product-image-wrapper">
-        <img class="featured-image" src="/assets/img/paper1.jpg" alt="featured product image" />
+        <img class="u-photo featured-image" src="/assets/img/paper1.jpg" alt="featured product image" />
         <div class="product-thumbnails">
             <img src="/assets/img/paper1.jpg" class="thumbnail col-md-4 active" alt="thumbnail 1" />
             <img src="/assets/img/paper2.jpg" class="thumbnail col-md-4" alt="thumbnail 2" />
@@ -8,18 +8,18 @@
         </div>
     </div>
     <div class="product-information-wrapper">
-        <h2>Paper</h2>
+        <h2 class="p-name">Paper</h2>
         <div class="product-details">
             <div class="product-prices">
-                <span class="current-price">666.00 kr</span><br />
-                <span class="old-price">999.00 kr</span>
+                <span class="p-price current-price" value="666.00">666.00 kr</span><br />
+                <span class="old-price" value="999.00">999.00 kr</span>
             </div>
             <select class="product-colors form-control">
                 <option ng-repeat="productColors in $ctrl.productColors" value="{{productColors}}">{{productColors}}</option>
             </select>
             <button type="button" class="buy-btn btn btn-default ">Buy</button>
         </div>
-        <div class="product-text">
+        <div class="e-description product-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
                 Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. 
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
