@@ -7,15 +7,25 @@
 
   <script src="/node_modules/angular/angular.js"></script>
   <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
-  <script src="index.js"></script>
-  <script src="/components/header/mainHeader.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/index.js"></script>
+ <!-- inject:js -->
+  <script src="/components/footer/footer.js"></script>
+  <script src="/components/mainContent/mainContent.js"></script>
+  <script src="/components/product/product.js"></script>
+  <script src="/components/header/header.js"></script>
   <script src="/components/mainMenu/mainMenu.js"></script>
+  <script src="/components/sideMenu/sideMenuController.js"></script>
+  <!-- endinject -->
 
 </head>
 <body ng-app="officeSupplyApp">
   <div id="wrapper">
-    <main-header></main-header>
+    <header></header>
     <main-menu></main-menu>
+    <side-menu></side-menu>
+    <main-content></main-content>
+    <footer></footer>
   </div>
 </body>
 </html>

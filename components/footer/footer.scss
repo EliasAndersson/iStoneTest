@@ -1,0 +1,37 @@
+.footer {
+    img {
+        padding-bottom: 15px;
+        width: 300px;
+    }
+
+    .footer-logo-text-wrapper {
+        margin: auto 100px auto 0;
+        max-width: 650px;
+    }
+
+    .footer-bestsellers {
+
+        margin: 0 auto;
+    }
+
+    .footer-social {
+        a {
+            color: #a3a3a3;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        margin: 0 auto;
+    }
+
+    align-items: baseline;
+    border: 1px solid #e7e7e7;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 130px;
+    padding: 20px;
+}

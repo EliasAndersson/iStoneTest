@@ -4,16 +4,16 @@
         $scope.isCollapsed = true;
         this.menuItems = [
             {
-            title: 'All our products',
-            link: '#'
+                title: 'All our products',
+                link: '#'
             },
             {
-            title: 'Inspiration for the office',
-            link: '#'
+                title: 'Inspiration for the office',
+                link: '#'
             },
             {
-            title: 'About OS',
-            link: '#'
+                title: 'About OS',
+                link: '#'
             }
         ];
     }
