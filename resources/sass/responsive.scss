@@ -1,0 +1,148 @@
+@import "../../resources/sass/variables";
+
+@media all and (max-width: 768px) {
+    .wrapper{
+        padding: 10px;
+    }
+    //Header styling
+    .header{
+        img {
+            width: 60%;
+        }
+        .search-form {
+            display: none;
+        }
+
+        .cart {
+            float: right;
+        }
+
+        .cart-sum {
+            display: none;
+        }
+
+        .check-out {
+            display: none;
+        }
+        display: block;
+        min-height: 0;
+    }
+    
+    //Main menu styling
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header, .navbar-toggle {
+        .collapse {
+            display:block !important;
+        }
+        float: left;
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .navbar-toggle {
+        margin-left: 5px;
+    }
+    
+    //Side menu styling
+    .side-menu{
+        display: none;
+    }
+
+    //Product content styling
+    .product-wrapper {
+        .product-image-wrapper {
+            margin: auto; 
+            width: 300px;
+        }
+        display: block;
+    }
+
+    .product-information-wrapper {
+        clear: both;
+        display: table-header-group;
+        margin: auto;
+    }
+
+    .product-details {
+        .current-price {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .old-price {
+            font-style: italic;
+        }
+
+        .product-colors {
+            margin: auto;
+            width: 30%;
+        }
+
+        .product-prices {
+            margin: auto 0;
+        }
+
+        .buy-btn {
+            align-self: center;
+            min-width: 100px;
+        }
+
+        align-content: center;
+        border: 1px solid nth($secondary-colors, 1);
+        border-radius: 4px;
+        display: flex;
+        margin-bottom: 5px;
+        padding: 10px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .product-thumbnails {
+        max-width: 400px;
+        min-height: 100px;
+    }
+
+    .thumbnail {
+        float: left;
+        max-width: 80px;
+    }
+
+    //Inspiration content styling
+    .inspiration-boxes-wrapper {
+        display: block;
+    }
+
+    .inspiration-box {
+        height: auto !important;
+        margin: 10px auto !important;
+    }
+
+    //Footer styling
+    .footer {
+        img {
+            width: 100%;
+        }
+
+        .footer-logo-text-wrapper {
+            margin: auto;
+        }
+
+        .footer-bestseller-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer-social-list {
+            padding: 0;
+        }
+
+        display: block;
+        text-align: center;
+    }
+}

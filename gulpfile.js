@@ -12,7 +12,7 @@ gulp.task('sass', function() {
 
 gulp.task('index', function () {
     var target = gulp.src('./index.html');
-    var sources = gulp.src(['./components/**/*.js'], {read: false});
+    var sources = gulp.src(['./{components,resources}/**/*.js'], {read: false});
    
     return target.pipe(inject(sources))
       .pipe(gulp.dest('./'));
@@ -20,6 +20,7 @@ gulp.task('index', function () {
 
 gulp.task('watch', function() {
     gulp.watch('./{components,resources}/**/*.scss', ['sass']);
+    gulp.watch('./{components,resources}/**/*.js', ['index']);
 });
 
 gulp.task('default', ['sass', 'index', 'watch']);

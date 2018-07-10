@@ -1,9 +1,19 @@
+@import "../../resources/sass/variables";
+
 .header {
     img {
+        max-width: 400px;
         margin: auto;
     }
 
     .cart{
+        a {
+            color: nth($secondary-colors, 4);
+            text-decoration: none;
+        }
+        .badge {
+            background-color: ();
+        }
         .cart-product-count{
             margin-right: 10px;
         }
@@ -26,7 +36,6 @@
     }
 
     align-content: center;
-    background-color: #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

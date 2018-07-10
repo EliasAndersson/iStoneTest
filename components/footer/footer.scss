@@ -1,3 +1,4 @@
+@import "../../resources/sass/variables";
 .footer {
     img {
         padding-bottom: 15px;
@@ -16,7 +17,7 @@
 
     .footer-social {
         a {
-            color: #a3a3a3;
+            color: nth($secondary-colors, 2);
         }
 
         ul {
@@ -27,7 +28,7 @@
     }
 
     align-items: baseline;
-    border: 1px solid #e7e7e7;
+    border: 1px solid nth($secondary-colors, 1);
     clear: both;
     display: flex;
     flex-direction: row;

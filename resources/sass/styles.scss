@@ -1,4 +1,4 @@
-@import "_variables";
+@import "variables";
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -6,9 +6,18 @@ body {
     padding: 0;
 }
 
-#wrapper {
+a {
+    color: nth($primary_colors, 4);
+}
+
+a:hover {
+    color: nth($primary_colors, 1) !important;
+}
+
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 

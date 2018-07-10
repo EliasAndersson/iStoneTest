@@ -8,16 +8,18 @@
         </div>
     </div>
     <div class="product-information-wrapper">
-        <h2 class="p-name">Paper</h2>
-        <div class="product-details">
-            <div class="product-prices">
-                <span class="p-price current-price" value="666.00">666.00 kr</span><br />
-                <span class="old-price" value="999.00">999.00 kr</span>
+        <div class="product-information">
+            <h2 class="p-name">Paper</h2>
+            <div class="product-details">
+                <div class="product-prices">
+                    <span class="p-price current-price" value="666.00">666.00 kr</span><br />
+                    <span class="old-price" value="999.00">999.00 kr</span>
+                </div>
+                <select class="product-colors form-control">
+                    <option ng-repeat="productColors in $ctrl.productColors" value="{{productColors}}">{{productColors}}</option>
+                </select>
+                <button type="button" class="buy-btn btn btn-default ">Buy</button>
             </div>
-            <select class="product-colors form-control">
-                <option ng-repeat="productColors in $ctrl.productColors" value="{{productColors}}">{{productColors}}</option>
-            </select>
-            <button type="button" class="buy-btn btn btn-default ">Buy</button>
         </div>
         <div class="e-description product-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
